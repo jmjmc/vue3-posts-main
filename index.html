@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> <!--문서의 문자 인코딩을  UTF-8 로 설정-->
+    <link rel="icon" href="/favicon.ico" /> <!--웹사이트의 파비콘(아이콘)을 설정-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--반응형 디자인을 위한 뷰포트 설정--><!--initial-scale=1.0 은 웹페이지가 초기 로드될 때 기본 배율로 표시-->
+    <title>Vite App</title> <!--문서의 제목을 'Vite App'  로 설정-->
+  </head>
+  <body>
+    <div id="app"></div> <!--ID 가 'app'인 div 요소 --> <!--/src/main.js 파일 안에 app.mount('#app')가 있는데, 여기서 #app가 매칭됨 -->
+    <div id="modal"></div> <!--ID 가 'modal'인 div 요소 -->
+    <script type="module" src="/src/main.js"></script> <!--JavaScript 파일(main.js)을 로드--> 
+    <!--HTML 문서 내에서 외부 JavaScript 파일을 로드하기 위한 script 태그이다.-->
+    <!--속성값 type="module" 이 속성은 브라우저에게 해당 스크립트 파일이 ES6 모듈임을 나타낸다.-->
+
+    <!--ES6(ECMAScript)-->
+    <!--1. 화살표 함수(Arrow functions) : => 문법을 사용하여 함수를 더 간결하게 정의-->
+    <!--2. let과 const : 블록 스코프 변수인 'let'과 'const' 를 도입하여 변수를 더 잘 관리(let: 재할당 가능한 변수/ const : 상수)-->
+    <!--3. 템플릿 리터럴(Template literals) : 백틱(`) 을 사용하여 문자열을 더 유연하게 작성(변수/표현식을 문자열 안에 쉽게 삽입)-->
+    <!--4. 디스트럭처링(Destructuring) : 배열이나 객체에서 데이터를 추출하여 변수에 할당하는 새로운 구문을 제공-->
+    <!--5. 클래스(Class) : 객체지향 프로그래밍을 지원하기 위해 클래스 문법이 추가됨-->
+    <!--6. 확장된 객체 리터럴(Enhanced Object Literals) : 객체 초기화를 더 편리하게 할 수 있도록 다양한 기능을 추가함-->
+    <!--7. Promise 와 비동기 처리(Promise and Asynchronous Programming) : 비동기 코드를 더 효율적으로 작성하고 관리하기 위해 Promise 와 async/await 문법을 도입-->
+  </body>
+</html>
