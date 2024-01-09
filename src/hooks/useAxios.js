@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'; // axios.defaults.baseURL 을 통해 기본 baseURL 을 설정
 import { isRef, ref, unref, watchEffect } from 'vue';
 
 axios.defaults.baseURL = import.meta.env.VITE_APP_API_URL;
